@@ -16,7 +16,7 @@
             <form method="post" action="NewServlet">
                 <tr>
                     <td><input type="text" name="frist" value="${m.fNum} "></td>
-                    <td><select id="select" name="op">
+                    <td><select id="select" name="op" >
                             <option value="+">+ </option>
                             <option value="-">- </option>
                             <option value="x">x </option>

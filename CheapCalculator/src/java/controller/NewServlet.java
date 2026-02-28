@@ -65,6 +65,7 @@ public class NewServlet extends HttpServlet {
             }
             math m = new math(f, s, re);
             request.setAttribute("m", m);
+            request.setAttribute("op", op);
             request.getRequestDispatcher("index.jsp").forward(request, response);
         }
     }
